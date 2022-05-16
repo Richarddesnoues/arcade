@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+    background-color: black;
+}
+
+
+.logo {
+
+    background-image: url(../asset/img/strange_banner.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 300px;
+}
+
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 50px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    color: #f0f;
+
+
+}
+
+li:hover {
+    transform: scale(1.5);
+}
+
+ul li a {
+    display: block;
+    text-align: center;
+    padding: 27px;
+}
+
+.navbar {
+
+    background-color: #450951;
+}
+/*----------------------------------- Fin Header---------------------------*/
+
+
+.flip_news {
+    background-color: #450951;
+    background-image: url(../asset/texture/smoke2.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 50px;
+
+}
+
+.news {
+   display: flex;
+   flex-direction: column;
+   background-color: rgb(151, 56, 151);
+   width:50%;
+   
+   margin: auto;
+   padding: 20px;
+   margin-right: 20px;
+   margin-top: 0px;
+   font-size: 1.2em;
+       
+}
+
+ .youtube { 
+    width:100%;
+    height: 400px;
+   margin: auto;
+   padding: 20px;
+   margin-right: 20px;
+   margin-top: 0px;
+   font-size: 1.2em;
+
+}
+
+.preview {
+    width: 90%;
+    display: flex;
+   
+   
+}
+
+
+
+
+
+
+
+
+/*---------------------------------Footer----------------------------------*/
+
+footer {
+    background-color: #450951;
+}
+
+
+.footer {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 300px;
+    background-color: #311137;
+   
+}
+
+.footer ul {
+    align-items: center;
+    margin-left: 200px;
+}

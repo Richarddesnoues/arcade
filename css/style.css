@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+    background-color: black;
+    
+  
+}
+
+
+.logo {
+
+    background-image: url(../asset/img/strange_banner.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 300px;
+}
+
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 50px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    color: #f0f;
+
+
+}
+
+li:hover {
+    transform: scale(1.5);
+}
+
+ul li a {
+    display: block;
+    text-align: center;
+    padding: 27px;
+}
+
+.navbar {
+
+    background-color: #450951;
+}
+
+
+
+
+
+/*----------------------------Section pres-----------------------------*/
+
+.pres {
+
+    background-color: #450951; 
+    background-image: url(../asset/texture/smoke2.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 1000px;
+}
+
+
+.left_square {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+    background-image: url(../asset/img/flip_pres.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    cursor: pointer;
+    
+    
+}
+
+
+.right_square {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    width: 100%;
+    background-image: url(../asset/img/old_flip.webp);
+    padding-top: 20px;
+    cursor: pointer;
+    
+}
+
+.zoom_left {
+    overflow: hidden;
+    height: 500px;
+    width: 600px;
+}
+
+
+.zoom_right {
+    overflow: hidden;
+    height: 500px;
+    width: 600px;
+}
+
+
+
+.left_square:hover {
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+.right_square:hover {
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+
+.flips {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.borne_bottom {
+    
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    width: 100%;
+    background-image: url(../asset/img/bornes_hall.jpg);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+    cursor: pointer;
+    
+}
+
+.zoom_borne {
+    margin: auto;
+    height: 500px;
+    width: 89%;
+    overflow: hidden;
+}
+
+.borne_bottom:hover {
+    transform: scale(1.2);
+    transition: all 1s;
+    
+}
+
+
+
+.title {
+    margin-top: -50px;
+    width: 600px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    position: absolute;
+    
+    
+    
+}
+
+
+.title_borne {
+    width: 71.2%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    position:absolute;
+    
+    margin-top:-70px;
+}
+
+
+.title p {
+    padding-left: 10px;
+}
+
+.title_borne p {
+    padding-left: 10px;
+}
+
+
+
+
+
+
+.pres p {
+    font-size: 1.4em;
+}
+
+footer {
+    background-color: #450951;
+}
+
+
+.footer {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 300px;
+    background-color: #311137;
+    
+    
+}
+
+.footer ul {
+    align-items: center;
+    margin-left: 200px;
+}
